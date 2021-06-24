@@ -1,0 +1,199 @@
+header{
+    background-color: #273244;
+    height: auto;
+}
+#navbarNav ul{
+    margin-left: auto;
+}
+.navbar a{
+    color: white !important;
+}
+#section1{
+    margin-top: 100px;
+}
+#section1 h3{
+    color: white;
+}
+#section1 p{
+    color: rgba(255, 255, 255, 0.534);
+}
+#button1{
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+#button2{
+    color: white;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(34, 65, 240);
+    margin-left: 20px;
+    width: 150px;
+}
+.navbar-toggler-icon{
+    background-color: white;
+}
+#foto{
+    max-width: auto;
+    margin: auto;
+}
+#section2 .container >h2{
+   color: white;
+   text-align: center;
+}
+#section2 .container >p{
+    color: white;
+    text-align: center;
+}
+.service{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: -20%;
+}
+.service i{
+    color: white;
+    background-color: rgb(34, 65, 240);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.service span{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.service h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service button{
+    border: 1px solid rgb(78, 78, 78);
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    width: 150px;
+}
+#section3{
+    background-color: #2f73ff;
+}
+#section3 h2{
+    color: white;
+    margin-top: 20%;
+}
+#section3 p{
+    color: white;
+}
+#section3 table img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+#section3 table{
+    margin: auto;
+    margin-top: 20%;
+    width: auto;
+}
+#section4{
+    background-color: #fff;
+}
+#section4 p{
+    color: gray;
+    text-align: center;
+    padding-top: 5%;
+}
+#section4 img{
+    padding: 10px;
+}
+#div11{
+    background-color: #2f73ff;
+    color: white;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: -50px;
+}
+#div11 h2{
+    font-size: 20px;
+}
+#div11 p{
+    color: white !important;
+    text-align: left;
+    width: 400px;
+}
+#div11 button{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    outline: none;
+}
+#div11 img{
+   width: 200px;
+   height: auto;
+   object-fit: contain;
+}
+footer{
+    background-color: #273244;
+    color: white;
+    padding-top: 100px;
+}
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+@media(max-width:400px){
+    .navbar-toggler-icon{
+        margin-right: 50px;
+    }
+    #section1 h3{
+        width: 300px;
+    }
+    #section1 p{
+        width: 250px;
+    }
+    #button2{
+        width: 130px;
+    }
+    #foto{
+        width: 250px;
+        height: 250px;
+    }
+    #section2 .container >p{
+        width: 280px;
+    }
+    .service{
+        width: 80%;
+        margin-bottom: 25px;
+        margin-right: 70px;
+    }
+    #section3 p{
+        width: 250px;
+    }
+    #section3 table img{
+        width: 120px;
+        height: 120px;
+    }
+    #section4 img{
+        width: 100px;
+        height: 100px;
+    }
+    #div11{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #div11 p{
+        width: 200px;
+    }
+    #text{
+        width: 270px;
+    }
+    
+}
